@@ -1,0 +1,30 @@
+{
+    "name": "jakiboy/xdt",
+    "type": "library",
+    "description": "Server Side DataTable for large data sets",
+    "keywords": ["server side data", "datatable", "large data"],
+    "homepage": "https://jakiboy.github.io/Xdt/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jihad Sinnaour",
+            "email": "j.sinnaour.official@gmail.com",
+            "homepage": "https://info.jihadsinnaour.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": { "Xdt\\": "src" },
+        "exclude-from-classmap": ["src/Tests"]
+    },
+    "autoload-dev": {
+    },
+    "suggest": {
+    },
+    "extra": {
+    }
+}
