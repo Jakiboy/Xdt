@@ -13,13 +13,12 @@
         }
     ],
     "require": {
-        "php": ">=5.5"
     },
     "require-dev": {
     },
     "autoload": {
         "psr-4": { "Xdt\\": "src" },
-        "exclude-from-classmap": ["src/Tests"]
+        "exclude-from-classmap": ["test"]
     },
     "autoload-dev": {
     },
